@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--dark);
-    width: fit-content;
-    height: 26.25rem;
+    width: 20em;
     border-radius: 3%;
     font-size: 1.05rem;
   }
@@ -16,21 +15,18 @@
   font-family: 'NanumGothicBold';
   outline: none;
   margin: .6em .7em .6em .7em;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 .profile .sampleName::placeholder{
   color: var(--light);
 }
 
-.profile img{
-  object-position: center;
-  object-fit: cover;
-}
-
 .profile img.pokemon{
+  object-position: center;
+  object-fit: scale-down;
   background-color: var(--white);
-  width: 20em;
+  width: auto;
   height: 20em;
 }
 
@@ -41,6 +37,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.9em;
+  margin: .2em 0 .2em 0;
 }
 
 .profile .name{
@@ -66,4 +63,13 @@
   width: 1em;
   height: 1em;
   margin: 0 .15em 0 .15em;
+}
+
+@media (max-width:1000px){
+  .profile {
+    width: 100%;
+  }
+  .profile img.pokemon {
+    height: 10em;
+  }
 }

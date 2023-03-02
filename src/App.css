@@ -20,7 +20,6 @@
   background-color: var(--darker);
   margin: auto;
   max-width: 90rem;
-  min-width: 60rem;
   width: calc(100% - 2.6rem);
   padding: 1.3rem;
 }

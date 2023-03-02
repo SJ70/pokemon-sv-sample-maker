@@ -3,3 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (max-width:1000px){
+    .profileAndStats{
+        flex-direction: column;
+    }
+}

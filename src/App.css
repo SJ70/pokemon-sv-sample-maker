@@ -19,7 +19,7 @@
   align-self: center;
   background-color: var(--darker);
   margin: auto;
-  max-width: 90rem;
+  max-width: 80rem;
   width: calc(100% - 2.6rem);
   padding: 1.3rem;
 }

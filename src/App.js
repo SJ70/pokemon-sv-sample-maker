@@ -1,15 +1,12 @@
 import './App.css';
-import {Profile} from './components/Profile.js';
+import {Top} from './components/Top.js';
 
 function App() {
 
   return (
     <div className="App">
 
-      {/* 상단 항목 */}
-      <div>
-        <Profile></Profile>
-      </div>
+      <Top></Top>
 
       {/* 하단 헤더 */}
       <div>

@@ -1,19 +1,19 @@
 @font-face {
     font-family: "NanumGothic";
-    src: url("./NanumGothic.ttf");
+    src: url("./NanumGothic.otf") format('opentype');
 }
 
 @font-face {
     font-family: "NanumGothicBold";
-    src: url("./NanumGothicBold.ttf");
+    src: url("./NanumGothicBold.otf") format('opentype');
 }
 
 @font-face {
     font-family: "NanumGothicExtraBold";
-    src: url("./NanumGothicExtraBold.ttf");
+    src: url("./NanumGothicExtraBold.otf") format('opentype');
 }
 
 @font-face {
     font-family: "NanumGothicLight";
-    src: url("./NanumGothicLight.ttf");
+    src: url("./NanumGothicLight.otf") format('opentype');
 }

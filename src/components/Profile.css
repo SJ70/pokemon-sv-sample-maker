@@ -1,0 +1,69 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark);
+    width: fit-content;
+    border-radius: 3%;
+    font-size: 1.05rem;
+  }
+  
+  .profile .sampleName{
+    resize: none;
+    background-color: transparent;
+    border-width: 0px;
+    color: var(--white);
+    font-family: 'NanumGothicBold';
+    flex: auto;
+    outline: none;
+    margin: .6em .7em .6em .7em;
+    font-size: .9em;
+  }
+  
+  .profile .sampleName::placeholder{
+    color: var(--light);
+  }
+  
+  .profile img{
+    object-position: center;
+    object-fit: cover;
+  }
+  
+  .profile img.pokemon{
+    background-color: var(--white);
+    width: 20em;
+    height: 20em;
+  }
+  
+  .profile .nameAndTypes{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.9em;
+  }
+  
+  .profile .name{
+    font-size: .6em;
+    color: var(--white);
+    margin: .7em;
+    font-family: 'NanumGothicBold';
+  }
+  
+  .profile .types{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .profile .types img.type{
+    width: .85em;
+    height: .85em;
+    margin-right: .15em;
+  }
+  
+  .profile .types img.teraType{
+    width: 1em;
+    height: 1em;
+    margin: 0 .15em 0 .15em;
+  }

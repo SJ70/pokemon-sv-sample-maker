@@ -1,9 +1,8 @@
 import './App.css';
-import {Top} from './components/Top.js';
+import Top from './components/Top';
 
-function App() {
-
-  return (
+const App = () => {
+  return(
     <div className="App">
 
       <Top></Top>

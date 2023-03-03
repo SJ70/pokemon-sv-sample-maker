@@ -1,9 +1,9 @@
 import './Top.css'
-import {Profile} from './top/Profile.js';
-import {Stats} from './top/Stats.js';
-import {Moves} from './top/Moves.js';
+import Profile from './top/Profile';
+import Stats from './top/Stats';
+import Moves from './top/Moves';
 
-export function Top(){
+const Top = () => {
     return(
         <div>
             <div className='profileAndStats'>
@@ -14,3 +14,5 @@ export function Top(){
         </div>
     );
 }
+
+export default Top;

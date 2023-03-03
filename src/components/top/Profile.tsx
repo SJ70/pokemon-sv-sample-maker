@@ -1,6 +1,6 @@
 import './Profile.css'
 
-export function Profile(){
+const Profile = () => {
     return(
         <div className='profile'>
             <input className='sampleName' placeholder='샘플명 입력'></input>
@@ -16,3 +16,5 @@ export function Profile(){
         </div>
     );
 }
+
+export default Profile;

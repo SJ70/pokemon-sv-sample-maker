@@ -124,7 +124,7 @@
 @media (max-width:1000px){
     .stats{
         margin-left: 0;
-        margin-top: 1.3em;
+        margin-top: 1.3rem;
         height: 15rem;
         font-size: .7em;
         grid-template-rows: .3fr .5fr .5fr .5fr .5fr .5fr 0fr .5fr 0fr;

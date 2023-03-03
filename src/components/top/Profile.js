@@ -10,7 +10,6 @@ export function Profile(){
                 <div className='types'>
                     <img className='type' src={ require('../../database/type/img/normal.png')} alt=""></img>
                     <img className='type' src={ require('../../database/type/img/fire.png')} alt=""></img>
-                    <div className='line'></div>
                     <img className='teraType' src={ require('../../database/terastalType/img/fire.png')} alt=""></img>
                 </div>
             </div>

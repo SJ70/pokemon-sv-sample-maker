@@ -8,12 +8,6 @@
   --yellow: #FFC224;
 }
 
-:root .line{
-  height: 1em;
-  width: 1px;
-  background-color: var(--light);
-}
-
 .App{
   justify-self: center;
   align-self: center;

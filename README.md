@@ -18,6 +18,15 @@ em : 상위 요소의 font-size 기준
 #### 타입스크립트로 변경
 yarn 실행 오류 해결 : Windows PowerShell 관리자 권한으로 실행 : Set-ExecutionPolicy Unrestricted  
 jsx가 실행이 되지 않는 문제 : tsconfig.json : compilerOptions에 "jsx": "preserve" 추가  
+#### 데이터베이스 객체 UML Diagram 작성
+[[Figma]](https://www.figma.com/file/eOfMpjN4FVX30gad0smRu9/%ED%8F%AC%EC%BC%93%EB%AA%ACSV-%EC%83%98%ED%94%8C-%EB%A9%94%EC%9D%B4%EC%BB%A4-UML-Diagram?node-id=0%3A1&t=7ZgPsk0utCzRYgrV-1)  
+
+
+
+
+
+
+
 
 #### Stats.tsx
 종족값 : 포켓몬이 선택되지 않았을 경우, 모든 값 '-'으로 표기  
